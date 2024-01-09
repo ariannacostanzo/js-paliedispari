@@ -1,1 +1,4 @@
-console.log('main ok')
+// console.log('main ok')
+
+// * Palindroma
+
