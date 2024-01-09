@@ -8,4 +8,7 @@
     max-width: 50%;
 }
 
-
+img {
+    max-width: 70%;
+    margin-top: 3rem;
+}
