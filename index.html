@@ -10,15 +10,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container mt-5">
+
+    <!-- esercizio palindrama -->
+    <!-- <div class="container mt-5">
         <p>Inserisci una parola, ti dirò se è palindroma! (cioè se letta al contrario rimane la stessa)</p>
         <form >
             <input type="text" class="form-control mb-5">
             <button class="btn btn-primary">Cliccami</button>
         </form>
         <p id="result" class="mt-5"></p>
+    </div> -->
+    <!-- fine esercizio palindrama -->
+
+    <!-- esercizio pari e dispari -->
+    <div class="container mt-5">
+        <form>
+            <label for="pari-o-dispari" class="form-label">Scegli pari o dispari</label>
+            <select class="form-select" aria-label="Default select example" id="pari-o-dispari">
+                <option selected>Scegli</option>
+                <option value="pari">Pari</option>
+                <option value="dispari">Dispari</option>
+              </select>
+            <label for="user-number" class="form-label mt-3">Scegli un numero da 1 a 5</label>
+            <input type="number" id="user-number" class="form-control">
+            <button class="btn btn-primary mt-3">Pari o dispari</button>
+        </form>
     </div>
+    <!-- fine esercizio pari e dispari -->
+
+    <!-- script -->
     <script src="js/functions.js"></script>
+    <!-- <script src="js/palindroma.js"></script> -->
     <script src="js/main.js"></script>
+    <!-- fine script -->
 </body>
 </html>
