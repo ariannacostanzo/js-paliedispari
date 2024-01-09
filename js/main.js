@@ -7,11 +7,10 @@ const resultElement = document.getElementById('result');
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-    resultElement.innerText = '';
     message = 'La tua parola non è palindrama!';
 
     const wordFromUser = inputElement.value;
-    logSomething(wordFromUser);
+    // logSomething(wordFromUser);
     
     //! Validazione 
 
@@ -19,11 +18,11 @@ form.addEventListener('submit', function(e) {
         message = 'Devi inserire una parola!';    
     }
 
+    //ho ripetuto il check sull'input perchè uno spazio vuoto è palindromo
     if (wordFromUser && isPalindrome(wordFromUser)) {
         message = 'La tua parola è palindrama!'
     }
 
-    
     resultElement.innerText = message;
 
 });
