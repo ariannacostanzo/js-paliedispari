@@ -9,7 +9,7 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
     message = 'La tua parola non è palindrama!';
 
-    const wordFromUser = inputElement.value;
+    const wordFromUser = (inputElement.value).toLowerCase();
     // logSomething(wordFromUser);
     
     //! Validazione 
