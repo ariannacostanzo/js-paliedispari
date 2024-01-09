@@ -22,9 +22,6 @@ form.addEventListener('submit', function(e) {
     let message = '';
     let errorMessage = '';
 
-    logSomething(userChoice);
-    logSomething(userNumber);
-    logSomething(CPUNumber);
 
     // ! Validazione
 
@@ -41,7 +38,6 @@ form.addEventListener('submit', function(e) {
         return;
         
     } 
-
 
     errorElement.innerText = ''
     
