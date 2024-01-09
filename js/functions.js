@@ -45,7 +45,7 @@ function getRandomInteger () {
  * 
  * @param {number} num1 first number to sum
  * @param {number} num2 second number to sum
- * @returns {boolean} returns true if the sum is even, false if it is not
+ * @returns {boolean} returns true if the sum is even, false if it's odd
  */
 
 function isSumEven (num1, num2) {
